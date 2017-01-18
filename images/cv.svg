@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8017.5 4738.404 50.117 60.096">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bababa;
+        stroke: #bababa;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #848484;
+        stroke: #848484;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_5_2" data-name="Symbol 5 – 2" transform="translate(7478 3958)">
+    <g id="Group_295" data-name="Group 295" transform="translate(109.5 120.5)">
+      <path id="Subtraction_9" data-name="Subtraction 9" class="cls-1" d="M-1873.5,135h-40a4.505,4.505,0,0,1-4.5-4.5v-50a4.505,4.505,0,0,1,4.5-4.5h26.5V88.5a4.505,4.505,0,0,0,4.5,4.5h13.5v37.5A4.505,4.505,0,0,1-1873.5,135Z" transform="translate(2348.5 584.5)"/>
+      <path id="Path_62" data-name="Path 62" class="cls-2" d="M2379.464,627.04s-.06,8.441,0,11.617a3.606,3.606,0,0,0,3.85,3.917h12.636Z" transform="translate(-1917.094 34.015)"/>
+    </g>
+    <text id="CV" class="cls-3" transform="translate(550.5 817.5)"><tspan x="0" y="0">CV</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg id="Symbol_11_1" data-name="Symbol 11 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="8181 4244 247 247">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Subtraction_9);
+      }
+    </style>
+    <filter id="Subtraction_9" x="8181" y="4244" width="247" height="247" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Subtraction_9-2" data-name="Subtraction 9" class="cls-1" d="M229,235H0V6H229ZM165.937,95.42c10.767,0,23.126,2.713,23.126,23.865V182h5.55V119.285c0-19.69-8.877-28.86-27.935-28.86-12.51,0-25.756,8.19-32.376,16.28v-48.1h-5.549V182H134.3V112.255C140.083,104.093,153.135,95.42,165.937,95.42ZM41.76,124.975H73.44L113.634,182h8.118L80.964,124.976c12.4,0,22.639-4.077,29.607-11.788,6.061-6.707,9.4-15.881,9.4-25.832,0-18.627-12.061-37.422-39.006-37.422H35.424V182H41.76V124.976Zm39.2-5.939H41.76V55.874h39.2c18.886,0,32.076,12.946,32.076,31.482C113.04,106.009,99.85,119.036,80.964,119.036Z" transform="translate(8190 4247)"/>
+  </g>
+</svg>

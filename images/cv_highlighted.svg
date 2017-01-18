@@ -1,0 +1,19 @@
+<svg id="Symbol_7_1" data-name="Symbol 7 – 1" xmlns="http://www.w3.org/2000/svg" viewBox="8026.5 5229.5 50 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8bc6db;
+        stroke: #8bc6db;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_80" data-name="Rectangle 80" class="cls-1" width="49" height="59" rx="4.5" transform="translate(8027 5230)"/>
+  <text id="CV" class="cls-2" transform="translate(8037.5 5266.5)"><tspan x="0" y="0">CV</tspan></text>
+</svg>
