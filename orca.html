@@ -1,5 +1,4 @@
 <!doctype html>
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -7,6 +6,7 @@
      <meta name="viewport" content="width=device-width">
     <title>Filip Sipos – UX Designer</title>
     <script src="https://use.fontawesome.com/88f72d132f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="css/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" media="" href="css/application.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
@@ -16,12 +16,11 @@
     <header class="clearfix">
         <div id="main_nav">
             <a href="#" class="name"><span id="Fi">Filip</span>Sipos</a>
-            <button class="hamburger hamburger--spring
-            " type="button">
-                <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-            </button>
+            <div id="nav-icon4">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <nav>
                 <a href="#" title="">About</a>
                 <a href="#" title="">Projects</a>
@@ -29,7 +28,6 @@
             </nav>
         </div>
     </header><!-- /header -->
-
      <footer>
         <div id="main_footer">
             <a id="email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=filip.sipos@gmail.com" target="_blank">filip.sipos@gmail.com</a>
@@ -43,6 +41,13 @@
             <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
         </div>
     </footer>
-
+<script>
+    $(document).ready(function(){
+    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+        $(this).toggleClass('open');
+    });
+    });
+</script>
+<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
