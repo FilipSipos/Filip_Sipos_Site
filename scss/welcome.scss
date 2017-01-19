@@ -81,7 +81,7 @@
     &:hover {
         box-shadow: $shadow_3;
         .image_2 {
-            display: none;
+            visibility: hidden;
         }
         .discription {
             display: block;

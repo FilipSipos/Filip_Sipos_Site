@@ -165,6 +165,9 @@ header {
         font-size: 1.3em;
         border: none;
         padding: 0;
+        &:hover {
+          border: none;
+        }
     }
     nav {
         display: none;

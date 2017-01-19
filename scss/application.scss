@@ -61,6 +61,7 @@ header {
         &:hover {
             color: $highlight;
             border: 1px solid $highlight;
+            text-decoration: none;
         }
     }
     #Fi {
