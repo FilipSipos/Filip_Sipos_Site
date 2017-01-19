@@ -7,7 +7,6 @@
     <title>Filip Sipos – UX Designer</title>
     <script src="https://use.fontawesome.com/88f72d132f.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link href="css/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" media="" href="css/application.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/welcome_max425.css">
@@ -22,28 +21,25 @@
         </div>
         <nav id="top_nav">
             <a href="about.html" title="Who is Filip">About</a>
+            <hr>
             <a href="portfolio.html" title="What I've been working on">Projects</a>
+            <hr>
             <a href="blog.html" title="What I've written">Writings</a>
         </nav>
-    </div>
-    <div id="nav-menu">
-        <a href="about.html" title="Who is Filip">About</a>
-        <hr>
-        <a href="portfolio.html" title="What I've been working on">Projects</a>
-        <hr>
-        <a href="blog.html" title="What I've written">Writings</a>
     </div>
 </header>
 <!-- /header -->
 <script>
     $(document).ready(function(){
-    $('#nav-icon4').click(function(){
-        $(this).toggleClass('open');
-        $('#nav-menu').toggleClass('open');
-    });
+        $('#top_nav>a:nth-child(3)').addClass("active");
+
+        $('#nav-icon4').click(function(){
+            $(this).toggleClass('open');
+            $('#top_nav').toggleClass('open');
+        });
+
     });
 </script>
-<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 <footer>
     <div id="main_footer">

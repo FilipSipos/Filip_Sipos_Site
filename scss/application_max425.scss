@@ -71,6 +71,7 @@ $light: #ACB5C3;
 }
 
 #nav-icon4.open span:nth-child(1) {
+  background: $highlight_4;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -85,6 +86,7 @@ $light: #ACB5C3;
 }
 
 #nav-icon4.open span:nth-child(3) {
+  background: $highlight_4;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
@@ -122,6 +124,7 @@ header {
     }
     .name {
         font-size: 1.3em;
+        color: $dark;
         border: none;
         padding: 0;
         &:hover {
@@ -129,9 +132,6 @@ header {
         }
     }
     #top_nav {
-        display: none;
-    }
-    #nav-menu {
       position: absolute;
       top: 0;
       left: 0;
@@ -145,16 +145,24 @@ header {
       justify-content: space-around;
       align-items: center;
       hr {
+            display: block;
             width: 5%;
             height: 1px;
             margin: 0 auto;
             background-color: $light;
             border: 0 none;
-        }
+      }
+      a {
+        color: $highlight_3;
+      }
+
     }
-    #nav-menu.open {
+    #top_nav.open {
       display: flex;
     }
+}
+.active {
+  color: $dark !important;
 }
 
 footer {

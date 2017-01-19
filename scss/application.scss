@@ -45,18 +45,15 @@ header {
         max-width: 1600px;
         margin: 0 auto;
     }
-    .hamburger {
-        display: none;
-    }
     .name {
         font-family: "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
         font-weight: 100;
         font-size: 1.2em;
         text-transform: uppercase;
-        border: 1px solid $dark;
+        border: 1px solid $light;
         padding: 0.5rem 1.5rem;
         text-decoration: none;
-        color: $dark;
+        color: $light;
         float: left;
         &:hover {
             color: $highlight;
@@ -79,9 +76,9 @@ header {
                 color: $highlight;
             }
         }
-    }
-    #nav-menu {
-        display: none;
+        hr {
+            display: none;
+        }
     }
 }
 body {
@@ -131,6 +128,9 @@ a {
         text-decoration: underline;
         color: $highlight_4;
     }
+}
+.name.active, .active {
+  color: $dark;
 }
 .wrapper {
     display: flex;
