@@ -19,23 +19,23 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/application_max375.css": {
+	"\/css\/application_max425.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/css\/application_max375-min.css",
+		"oAP": "\/css\/application_max425-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/welcome_max375.css": {
+	"\/css\/welcome_max425.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/css\/welcome_max375-min.css",
+		"oAP": "\/css\/welcome_max425-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -213,7 +213,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/scss\/application_max375.scss": {
+	"\/scss\/application_max425.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -239,7 +239,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/welcome_max375.scss": {
+	"\/scss\/welcome_max425.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -259,9 +259,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 506145255,
-	"displayValue": "Filip_WebSite_3",
+	"displayValue": "Filip_Sipos_Site",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-crying"
+	"iconImageName": "brackets_green"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
