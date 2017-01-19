@@ -9,6 +9,18 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
+	"\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog.html",
+		"oF": 0
+		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -197,6 +209,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/orca.html",
+		"oF": 0
+		},
+	"\/portfolio.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio.html",
 		"oF": 0
 		},
 	"\/scss\/_normalize.scss": {
