@@ -12,22 +12,30 @@
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/welcome_max425.css">
 </head>
-<body>
-    <header class="clearfix">
-        <div id="main_nav">
-            <a href="#" class="name"><span id="Fi">Filip</span>Sipos</a>
-            <div id="nav-icon4">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <nav>
-                <a href="#" title="">About</a>
-                <a href="#" title="">Projects</a>
-                <a href="#" title="">Writings</a>
-            </nav>
+<header class="clearfix">
+    <div id="main_nav">
+        <a href="#" class="name"><span id="Fi">Filip</span>Sipos</a>
+        <div id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-    </header><!-- /header -->
+        <nav id="top_nav">
+            <a href="#" title="">About</a>
+            <a href="#" title="">Projects</a>
+            <a href="#" title="">Writings</a>
+        </nav>
+    </div>
+    <div id="nav-menu">
+        <a href="#" title="">About</a>
+        <hr>
+        <a href="#" title="">Projects</a>
+        <hr>
+        <a href="#" title="">Writings</a>
+    </div>
+</header>
+<!-- /header -->
+<body>
     <div class="wrapper clearfix">
         <div class="col-1 homepage_content">
             <div id="homepage_about">
@@ -147,9 +155,19 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div id="main_footer">
-            <a id="email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=filip.sipos@gmail.com" target="_blank">filip.sipos@gmail.com</a>
+<script>
+    $(document).ready(function(){
+    $('#nav-icon4').click(function(){
+        $(this).toggleClass('open');
+        $('#nav-menu').toggleClass('open');
+    });
+    });
+</script>
+<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+<footer>
+    <div id="main_footer">
+        <a id="email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=filip.sipos@gmail.com" target="_blank">filip.sipos@gmail.com</a>
             <nav>
                 <a href="#" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a href="#" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i>
@@ -157,17 +175,7 @@
                 <a href="#" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
                 <a href="#" title="Twitte"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </nav>
-            <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
-        </div>
-    </footer>
-
-<script>
-    $(document).ready(function(){
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-        $(this).toggleClass('open');
-    });
-    });
-</script>
-<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
-</body>
+        <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
+    </div>
+</footer>
 </html>
