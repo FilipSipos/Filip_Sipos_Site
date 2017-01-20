@@ -113,11 +113,13 @@ html,body,{
 }
 
 header {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 1.5em 0 1em;
     border: none;
     #main_nav {
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
@@ -163,6 +165,16 @@ header {
 }
 .active {
   color: $dark !important;
+}
+.unpinned {
+    will-change: transform;
+    transition: transform 400ms ease-out;
+    transform: translateY(-100%);
+}
+.pinned {
+    will-change: transform;
+    transition: transform 400ms ease-in;
+    transform: translateY(0%);
 }
 
 footer {

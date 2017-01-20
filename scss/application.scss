@@ -39,7 +39,12 @@ html { -webkit-font-smoothing: antialiased;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
     padding: 2.5em 12.5% 2em;
+    background-color: #fff;
     border-bottom: 1px solid $border;
     #main_nav {
         max-width: 1600px;
@@ -81,6 +86,17 @@ header {
         }
     }
 }
+.unpinned {
+    will-change: transform;
+    transition: transform 400ms ease-out;
+    transform: translateY(-100%);
+}
+.pinned {
+    will-change: transform;
+    transition: transform 400ms ease-in;
+    transform: translateY(0%);
+}
+
 body {
     /**font-family: "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;**/
     font-family: CallunaLghtRegular, Georgia, serif;
@@ -140,6 +156,7 @@ a {
     width: 75%;
     max-width: 1600px;
     margin: 4% auto;
+    padding-top: 4em;
 }
 
 footer {
