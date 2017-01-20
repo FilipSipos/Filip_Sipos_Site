@@ -194,9 +194,10 @@ footer {
         flex-direction: column;
         align-items: center;
         #email {
-            padding: 1em 0;
+            padding: 1.5em 0 1em;
             flex-grow: 3;
             color: $light;
+            font-size: .8rem;
         }
         nav {
             padding: 0;
@@ -205,11 +206,11 @@ footer {
             flex-grow: 1;
         }
         a {
-            padding: 0 .55em;
-            font-size: 2em;
+            padding: 0 1em;
+            font-size: 1.2em;
         }
         .copyright {
-            padding: .5em 3em 0;
+            padding: 1em 0 .3em;
             font-size: 0.8rem;
             line-height: 1;
             flex-grow: 1;
