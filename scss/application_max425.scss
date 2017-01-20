@@ -149,10 +149,13 @@ header {
       width: 100vw;
       height: 100vh;
       padding: 38% 0 47%;
-      display: none;
+      display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
+      will-change: transform;
+      transition: transform 400ms cubic-bezier(0.55, 0.06, 0.68, 0.19);
+      transform: translate(100%, -100%);
       hr {
             display: block;
             width: 5%;
@@ -167,7 +170,9 @@ header {
 
     }
     #top_nav.open {
-      display: flex;
+      will-change: transform;
+    transition: transform 400ms cubic-bezier(0.55, 0.06, 0.68, 0.19);
+    transform: translate(0%);
     }
 }
 .active {
