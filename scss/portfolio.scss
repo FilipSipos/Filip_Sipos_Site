@@ -1,0 +1,36 @@
+$background_dark: #1A1E23;
+$background_light: #F3F5F6;
+$border: #E9EDEF;
+$highlight: #8bc6db;
+$highlight_2: #F16C6A;
+$highlight_3: #EF5350;
+$highlight_4: #B51A17;
+$dark: #252B33;
+$medium: #4D5A6A;
+$light: #ACB5C3;
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+h1 {
+    width: 100%;
+}
+.project {
+    width: 47.5%;
+    height: auto;
+}
+
+#project_1 {
+    background-color: $highlight;
+}
+#project_2 {
+    background-color: $medium;
+}
+#project_3 {
+    background-color: $background_light;
+}
+#project_4 {
+    background-color: $dark;
+}

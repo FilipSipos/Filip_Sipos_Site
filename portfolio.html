@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width">
     <title>Filip Sipos – UX Designer</title>
-    <script src="https://use.fontawesome.com/88f72d132f.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" media="" href="css/application.css">
-    <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
-    <link rel="stylesheet" media="(max-width: 425px)" href="css/welcome_max425.css">
+    <link rel="stylesheet" media="" href="css/portfolio.css">
 </head>
-<header class="clearfix">
+<header id="header" class="header clearfix">
     <div id="main_nav">
         <a href="index.html" class="name"><span id="Fi">Filip</span>Sipos</a>
         <div id="nav-icon4">
@@ -29,16 +26,47 @@
     </div>
 </header>
 <!-- /header -->
+<body>
+    <div class="wrapper">
+        <h1>Projects</h1>
+        <div class="project" id="project_1">
+            <img src="images/sizer.svg" alt="">
+        </div>
+        <div class="project" id="project_2">
+            <img src="images/sizer.svg" alt="">
+        </div>
+        <div class="project" id="project_3">
+            <img src="images/sizer.svg" alt="">
+        </div>
+        <div class="project" id="project_4">
+            <img src="images/sizer.svg" alt="">
+        </div>
+    </div>
+<script src="https://use.fontawesome.com/88f72d132f.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
-    $(document).ready(function(){
-        $('#top_nav>a:nth-child(3)').addClass("active");
+        $(document).ready(function(){
+            $('.name').addClass("active");
 
-        $('#nav-icon4').click(function(){
+            $('#nav-icon4').click(function(){
             $(this).toggleClass('open');
             $('#top_nav').toggleClass('open');
-        });
+            });
 
-    });
+            var s = $(".header");
+            documentElem = $(document);
+            lastScrollTop = 0;
+            $(documentElem).scroll(function() {
+                var currentScrollTop = $(this).scrollTop();
+                if (currentScrollTop > lastScrollTop){
+                    s.removeClass("pinned")
+                    s.addClass("unpinned");}
+                else {s.removeClass("unpinned");
+                    s.addClass("pinned")}
+            lastScrollTop = currentScrollTop;
+            });
+
+        });
 </script>
 </body>
 <footer>

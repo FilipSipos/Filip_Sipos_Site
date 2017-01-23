@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width">
     <title>Filip Sipos – UX Designer</title>
-    <script src="https://use.fontawesome.com/88f72d132f.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" media="" href="css/application.css">
+    <link rel="stylesheet" media="" href="css/about.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
-    <link rel="stylesheet" media="(max-width: 425px)" href="css/welcome_max425.css">
 </head>
-<header class="clearfix">
+<header id="header" class="header clearfix">
     <div id="main_nav">
         <a href="index.html" class="name"><span id="Fi">Filip</span>Sipos</a>
         <div id="nav-icon4">
@@ -29,14 +27,50 @@
     </div>
 </header>
 <!-- /header -->
-<script>
-    $(document).ready(function(){
-        $('#top_nav>a:nth-child(1)').addClass("active");
+<body>
+    <div class="wrapper clearfix">
+        <img class="responsive" src="images/20160807-_A6P6652-Edit.jpg" alt="">
+        <h1>Who is Filip</h1><br>
+        <div id="about">
+            <p>From designing on plates, to designing on screens. I’ve gone from being a head chef to a designer and though my platform has changed, my mission remains the same: to create an exceptional experience.</p>
+            <p>My first thought about user experience emerged at the age of fifteen, when I ate my first meal with chopsticks. That day I realized that to create an unforgettable experience for customers one couldn’t just think about the ingredients and the recipe, but also about the utensils, the color of table linens and the lighting and décor of the dining room…</p>
+            <p>This revelation led me to get a culinary degree in my home country, the Czech Republic, and later work and study in fine cuisine across Europe. As my entrepreneurial spirt grew, I continued to rethink and question the status quo, and strive to create better and better culinary experiences.</p>
+            <p>After spending 10+ years as a head chef crafting fine cuisine in Europe and Australia, I moved to the United States ran my own business as a wilderness and fly-fishing guide. I’ve realized that great design and usability doesn’t just cross industries and mediums, it crosses cultures; it connects us. </p>
+            <p>I’ve seen firsthand how good design and attention to detail effect the experience of that connection: **a perfectly cooked plate of _______, an elegantly designed fly fishing rod, or memories viewed in a VR headset** can draw us in, and connect us to the true heart and message of a business, a culture, or a moment.</p>
+            <div id="button_box">
+                <div id="cv_button">
+                    <button type="">contact</button>
+                    <a href="#" title=""><img id="cv" src="images/cv_sizer.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
 
-        $('#nav-icon4').click(function(){
+        <img class="responsive" id="seattle_sky" src="images/Seattle_skyline.svg" alt="">
+    </div>
+
+<script src="https://use.fontawesome.com/88f72d132f.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+            $('.name').addClass("active");
+
+            $('#nav-icon4').click(function(){
             $(this).toggleClass('open');
             $('#top_nav').toggleClass('open');
-        });
+            });
+
+            var s = $(".header");
+            documentElem = $(document);
+            lastScrollTop = 0;
+            $(documentElem).scroll(function() {
+                var currentScrollTop = $(this).scrollTop();
+                if (currentScrollTop > lastScrollTop){
+                    s.removeClass("pinned")
+                    s.addClass("unpinned");}
+                else {s.removeClass("unpinned");
+                    s.addClass("pinned")}
+            lastScrollTop = currentScrollTop;
+            });
 
         });
 </script>
