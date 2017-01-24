@@ -67,6 +67,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/portfolio_max425.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/portfolio_max425-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/welcome_max425.css": {
 		"aP": 0,
 		"bl": 0,
@@ -287,6 +297,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/about.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/about_max425.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/about_max425.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
