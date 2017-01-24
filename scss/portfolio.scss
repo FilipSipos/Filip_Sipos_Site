@@ -20,7 +20,14 @@ h1 {
 .project {
     width: 47.5%;
     height: auto;
+    .discription {
+    hr {
+        width: 50%;
+        margin: 1em auto;
+    }
 }
+}
+
 
 #project_1 {
     background-color: $highlight;

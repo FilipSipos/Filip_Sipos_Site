@@ -327,6 +327,16 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/scss\/portfolio.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/scss\/portfolio-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/scss\/portfolio.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -335,9 +345,22 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/scss\/portfolio.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/css\/portfolio.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/portfolio_max425.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/portfolio_max425.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/welcome.scss": {

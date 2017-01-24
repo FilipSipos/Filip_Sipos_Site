@@ -20,7 +20,7 @@
         <nav id="top_nav">
             <a href="about.html" title="Who is Filip">About</a>
             <hr>
-            <a href="portfolio.html" title="What I've been working on">Projects</a>
+            <a href="portfolio.html" title="What I've been working on">Portfolio</a>
             <hr>
             <a href="blog.html" title="What I've written">Writings</a>
         </nav>
@@ -52,7 +52,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
         $(document).ready(function(){
-            $('.name').addClass("active");
+            $('#top_nav>a:nth-child(1)').addClass("active");
 
             $('#nav-icon4').click(function(){
             $(this).toggleClass('open');
