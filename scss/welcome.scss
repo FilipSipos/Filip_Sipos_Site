@@ -37,7 +37,8 @@
     display: flex;
     justify-content: flex-end;
     #cv {
-        height: 3em;
+        display: block;
+        height: 3.1em;
         margin: 0 1em;
         border-radius: 5px;
         background-color: $light;
