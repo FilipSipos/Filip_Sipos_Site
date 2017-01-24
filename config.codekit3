@@ -57,6 +57,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/portfolio.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/portfolio-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/welcome_max425.css": {
 		"aP": 0,
 		"bl": 0,
@@ -325,9 +335,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/portfolio.css",
-		"oF": 2,
-		"oS": 3,
+		"oAP": "\/scss\/portfolio.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/welcome.scss": {
