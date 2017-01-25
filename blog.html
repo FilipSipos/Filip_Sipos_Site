@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width">
     <title>Filip Sipos – UX Designer</title>
-    <script src="https://use.fontawesome.com/88f72d132f.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" media="" href="css/application.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/welcome_max425.css">
 </head>
-<header class="clearfix">
+
+<body>
+<header id="header" class="header clearfix">
     <div id="main_nav">
         <a href="index.html" class="name"><span id="Fi">Filip</span>Sipos</a>
         <div id="nav-icon4">
@@ -29,18 +29,6 @@
     </div>
 </header>
 <!-- /header -->
-<script>
-    $(document).ready(function(){
-        $('#top_nav>a:nth-child(5)').addClass("active");
-
-        $('#nav-icon4').click(function(){
-            $(this).toggleClass('open');
-            $('#top_nav').toggleClass('open');
-        });
-
-    });
-</script>
-</body>
 <footer>
     <div id="main_footer">
         <a id="email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=filip.sipos@gmail.com" target="_blank">filip.sipos@gmail.com</a>
@@ -54,4 +42,36 @@
         <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
     </div>
 </footer>
+<script src="js/headroom.js"></script>
+<script src="https://use.fontawesome.com/88f72d132f.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+        (function() {
+            var header = document.querySelector("#header");
+
+            if(window.location.hash) {
+              header.classList.add("headroom--unpinned");
+            }
+
+            var headroom = new Headroom(header, {
+                tolerance: {
+                  down : 10,
+                  up : 20
+                },
+                offset : 205
+            });
+            headroom.init();
+
+        }());
+
+        $(document).ready(function(){
+            $('.name').addClass("active");
+
+            $('#nav-icon4').click(function(){
+            $(this).toggleClass('open');
+            $('#top_nav').toggleClass('open');
+            });
+        });
+</script>
+</body>
 </html>

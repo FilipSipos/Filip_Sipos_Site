@@ -10,6 +10,7 @@
     <link rel="stylesheet" media="" href="css/orca.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/orca_max425.css">
 </head>
+<body>
 <header id="header" class="header clearfix">
     <div id="main_nav">
         <a href="index.html" class="name"><span id="Fi">Filip</span>Sipos</a>
@@ -28,7 +29,6 @@
     </div>
 </header>
 <!-- /header -->
-<body>
     <div class="wrapper">
         <div class="row" id="row_1">
             <h1>ORCA PLUS</h1>
@@ -145,33 +145,6 @@
                 <p>There are two big take aways from this project. First one is– <i>Allow your-self to think wrong</i>. Second one is– <i>Speak up if given feedback is not constructive</i>.<br>Letting go of perfectionism, allowing my-self to make mistakes leads to creative freedom that results in more <b>inovative</b> and <b>out-of-box solutions</b>. Don't give in, speak up and maintaine <b>healthy boundaries</b>. <b>Non-violant comunication</b> and ability to construct <b>well formulated feedback</b> are essential skills for anyone who wants to contribute to the team.</p>
             </div>
     </div>
-<script src="https://use.fontawesome.com/88f72d132f.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-        $(document).ready(function(){
-            $('#top_nav>a:nth-child(3)').addClass("active");
-
-            $('#nav-icon4').click(function(){
-            $(this).toggleClass('open');
-            $('#top_nav').toggleClass('open');
-            });
-
-            var s = $(".header");
-            documentElem = $(document);
-            lastScrollTop = 0;
-            $(documentElem).scroll(function() {
-                var currentScrollTop = $(this).scrollTop();
-                if (currentScrollTop > lastScrollTop){
-                    s.removeClass("pinned")
-                    s.addClass("unpinned");}
-                else {s.removeClass("unpinned");
-                    s.addClass("pinned")}
-            lastScrollTop = currentScrollTop;
-            });
-
-        });
-</script>
-</body>
 <footer>
     <div id="main_footer">
         <a id="email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=filip.sipos@gmail.com" target="_blank">filip.sipos@gmail.com</a>
@@ -185,4 +158,36 @@
         <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
     </div>
 </footer>
+<script src="js/headroom.js"></script>
+<script src="https://use.fontawesome.com/88f72d132f.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+        (function() {
+            var header = document.querySelector("#header");
+
+            if(window.location.hash) {
+              header.classList.add("headroom--unpinned");
+            }
+
+            var headroom = new Headroom(header, {
+                tolerance: {
+                  down : 10,
+                  up : 20
+                },
+                offset : 205
+            });
+            headroom.init();
+
+        }());
+
+        $(document).ready(function(){
+            $('#top_nav>a:nth-child(3)').addClass("active");
+
+            $('#nav-icon4').click(function(){
+            $(this).toggleClass('open');
+            $('#top_nav').toggleClass('open');
+            });
+        });
+</script>
+</body>
 </html>
