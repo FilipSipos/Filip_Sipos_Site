@@ -136,6 +136,8 @@ p, li {
 }
 p, ul, ol {
     margin: 0 0 1.6em;
+    padding: 0;
+    list-style-position: inside;
 }
 a {
     color: $highlight_2;
@@ -144,6 +146,9 @@ a {
         text-decoration: underline;
         color: $highlight_4;
     }
+}
+b, strong {
+    font-weight: bold;
 }
 .name.active, .active {
   color: $dark;

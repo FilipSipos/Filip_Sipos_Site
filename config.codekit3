@@ -37,6 +37,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/about_max425.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/about_max425-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/application.css": {
 		"aP": 0,
 		"bl": 0,
@@ -54,6 +64,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/application_max425-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/orca.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/orca-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -92,6 +112,24 @@
 		"iS": 818849,
 		"oA": 0,
 		"oAP": "\/images\/20160807-_A6P6652-Edit.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/2020.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/2020.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/Apple-Pay-hands-on-orca.jpg": {
+		"ft": 16384,
+		"iS": 189890,
+		"oA": 0,
+		"oAP": "\/images\/Apple-Pay-hands-on-orca.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -134,6 +172,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/google.png": {
+		"ft": 32768,
+		"iS": 39228,
+		"oA": 0,
+		"oAP": "\/images\/google.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/hiv.svg": {
 		"ft": 2097152,
@@ -187,6 +233,52 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/iPhone-6-Plus-Isometric-view-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 2778412,
+		"oA": 0,
+		"oAP": "\/images\/iPhone-6-Plus-Isometric-view-Mockup.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/iPhone_Orca.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/iPhone_Orca.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/iphone_sizes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/iphone_sizes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/iterate.png": {
+		"ft": 32768,
+		"iS": 259585,
+		"oA": 0,
+		"oAP": "\/images\/iterate.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/needs-goals.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/needs-goals.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/orca.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -202,6 +294,52 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/orca_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/orca_cards.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/orca_cards.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/post-its-1 copy.jpg": {
+		"ft": 16384,
+		"iS": 191989,
+		"oA": 0,
+		"oAP": "\/images\/post-its-1 copy.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/quote.png": {
+		"ft": 32768,
+		"iS": 27993,
+		"oA": 0,
+		"oAP": "\/images\/quote.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/quote.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/quote.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/quote2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/quote2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -247,15 +385,73 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/test.svg": {
+	"\/images\/sketch_1.jpg": {
+		"ft": 16384,
+		"iS": 1581886,
+		"oA": 0,
+		"oAP": "\/images\/sketch_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/story_board.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/test.svg",
+		"oAP": "\/images\/story_board.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/three_iphones.jpg": {
+		"ft": 16384,
+		"iS": 4141869,
+		"oA": 0,
+		"oAP": "\/images\/three_iphones.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/three_iphones_small.jpg": {
+		"ft": 16384,
+		"iS": 3665284,
+		"oA": 0,
+		"oAP": "\/images\/three_iphones_small.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/time_line.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/time_line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/two_weeks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/two_weeks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/update_layout": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/update_layout",
+		"oF": 0
+		},
+	"\/images\/wires.jpg": {
+		"ft": 16384,
+		"iS": 2929766,
+		"oA": 0,
+		"oAP": "\/images\/wires.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -300,6 +496,16 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/scss\/about_max425.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/scss\/about_max425-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/scss\/about_max425.scss": {
 		"aP": 0,
@@ -346,6 +552,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/application_max425.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/orca.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/orca.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
