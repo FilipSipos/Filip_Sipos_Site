@@ -1,0 +1,44 @@
+.wrapper {
+    width: 100%;
+}
+
+.row {
+    padding: 7.5% 5%;
+}
+#row_1 {
+    padding: 15% 5% 10%;
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1.375rem;
+    }
+}
+#row_3 #col_box {
+    flex-wrap: wrap;
+    .col {
+    width: 100%;
+    }
+}
+#row_10 {
+    text-align: left;
+    #img-google {
+        float: right;
+        width: 35%;
+        padding-left: 5%;
+    }
+}
+#row_14 #img-iterate {
+    width: 50%;
+}
+#row_16 {
+    p {
+        margin-bottom: 0;
+    }
+}
+#row_17 #img_quote2 {
+    width: 50%;
+}

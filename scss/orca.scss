@@ -28,6 +28,10 @@ h2 {
 }
 .row {
     width: 100%;
+    padding: 10% 15%;
+}
+.row-img {
+    width: 100%;
 }
 
 #row_1 {
@@ -87,7 +91,7 @@ h2 {
 
 #row_3 {
     background-color: #fff;
-    padding: 10% 15%;
+    /*padding: 10% 15%;*/
     #col_box {
         display: flex;
         justify-content: space-between;
@@ -95,10 +99,15 @@ h2 {
         width: 33%;
         }
     }
+    #iphones {
+    display: block;
+    margin: 10% auto;
+    max-width: 65%;
+    }
 }
 
 #row_5 {
-    padding: 10% 15%;
+    /*padding: 10% 15%;*/
     background: #fff;
     #two-weeks {
     float: right;
@@ -119,7 +128,7 @@ h2 {
 }
 
 #row_7 {
-    padding: 10% 15%;
+    /*padding: 10% 15%;*/
     background: #fff;
     #quote {
        float: right;
@@ -127,7 +136,7 @@ h2 {
     }
 }
 #row_9 {
-    padding: 10% 15% 5%;
+    padding-bottom: 5%;
     background: #fff;
 }
 #row_10 {
@@ -141,7 +150,7 @@ h2 {
     }
 }
 #row_12 {
-    padding: 10% 15% 0;
+    padding-bottom:0;
     background: #fff;
     #first-tension {
     text-align: center;
@@ -150,11 +159,12 @@ h2 {
     }
 }
 #row_13 {
-    padding: 5% 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #fff;
 }
 #row_14 {
-    padding: 2.5% 15% 10%;
+    padding-top: 2.5%;
     background: #fff;
     #img-iterate {
     display: block;
@@ -163,11 +173,12 @@ h2 {
     }
 }
 #row_16 {
-    padding: 10% 15% 0;
+    padding-bottom: 0;
     background: #fff;
 }
 #row_17 {
-    padding: 5% 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #fff;
     #img_quote2 {
         display: block;
@@ -176,6 +187,6 @@ h2 {
     }
 }
 #row_18 {
-    padding: 0 15% 10%;
+    padding-top: 0;
     background: #fff;
 }
