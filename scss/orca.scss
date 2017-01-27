@@ -94,9 +94,18 @@ h2 {
     /*padding: 10% 15%;*/
     #col_box {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        .col {
-        width: 33%;
+        #col1, #col2 {
+            width: 47.5%;
+        }
+        #col3 {
+            width: 100%;
+            ul {
+                -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                -moz-column-count: 2; /* Firefox */
+                column-count: 2;
+            }
         }
     }
     #iphones {
@@ -131,7 +140,7 @@ h2 {
     /*padding: 10% 15%;*/
     background: #fff;
     #quote {
-       float: right;
+        margin: 0 auto 1.6em;
         width: 50%;
     }
 }

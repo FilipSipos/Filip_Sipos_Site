@@ -3,9 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
     <title>Filip Sipos – UX Designer</title>
+    <script src="js/headroom.js"></script>
+    <script src="https://use.fontawesome.com/88f72d132f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" media="" href="css/application.css">
+    <link rel="stylesheet" media="" href="css/welcome.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/welcome_max425.css">
 </head>
@@ -36,12 +40,14 @@
                 <h1>Who is Filip</h1>
                 <p id="p_1">From designing on plates, to designing on screens. I’ve gone from being a head chef to a designer and though my platform has changed, my mission remains the same: to create an exceptional experience.</p>
                 <p id="p_2">My first thought about user experience emerged at the age of fifteen, when I ate my first meal with chopsticks. That day I realized that to create an unforgettable experience for customers one couldn’t just think about the ingredients and the recipe, but also about the utensils, the color of table linens and the lighting and décor of the dining room…</p>
-                <a href="#" title="">read more</a>
+                <a href="about.html" title="">read more</a>
             </div>
 
             <div id="cv_button">
-                <a href="#" title=""><img id="cv" src="images/cv_sizer.svg" alt=""></a>
-                <button type="">contact</button>
+                <a download="Filip_Sipos_Resume.pdf" href="images/Filip_Sipos_Resume.pdf" title="Filip Sipos Resume">
+                <img id="cv" alt="cv" src="images/cv_sizer.svg">
+                </a>
+                <button id="contact-button" type="button">contact</button>
             </div>
 
         </div>
@@ -161,9 +167,6 @@
         <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
     </div>
 </footer>
-<script src="js/headroom.js"></script>
-<script src="https://use.fontawesome.com/88f72d132f.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
         (function() {
             var header = document.querySelector("#header");
@@ -185,6 +188,9 @@
 
         $(document).ready(function(){
             $('.name').addClass("active");
+            $("#contact-button").click(function(){
+            window.location = 'contact.html';
+            });
 
             $('#nav-icon4').click(function(){
             $(this).toggleClass('open');

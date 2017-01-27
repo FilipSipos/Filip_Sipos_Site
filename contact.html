@@ -9,29 +9,21 @@
     <script src="https://use.fontawesome.com/88f72d132f.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" media="" href="css/application.css">
+    <link rel="stylesheet" media="" href="css/welcome.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/welcome_max425.css">
 </head>
 
 <body>
-<header id="header" class="header clearfix">
-    <div id="main_nav">
-        <a href="index.html" class="name"><span id="Fi">Filip</span>Sipos</a>
-        <div id="nav-icon4">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <nav id="top_nav">
-            <a href="about.html" title="Who is Filip">About</a>
-            <hr>
-            <a href="portfolio.html" title="What I've been working on">Portfolio</a>
-            <hr>
-            <a href="blog.html" title="What I've written">Writings</a>
-        </nav>
-    </div>
-</header>
-<!-- /header -->
+    <form action="" method="post">
+      <label for="name">Your name</label>
+      <input placeholder="your name" type="text" tabindex="1" required autofocus />
+      <label for="email">Your email</label>
+      <input placeholder="your email address" type="email" tabindex="2"/>
+      <label for="message">Your message</label>
+      <textarea placeholder="type your message here...." name="message" id="" tabindex="3"></textarea>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </form>
 <footer>
     <div id="main_footer">
         <a id="email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=filip.sipos@gmail.com" target="_blank">filip.sipos@gmail.com</a>

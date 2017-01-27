@@ -3,8 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
     <title>Filip Sipos – UX Designer</title>
+    <script src="js/headroom.js"></script>
+    <script src="https://use.fontawesome.com/88f72d132f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" media="" href="css/application.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
     <link rel="stylesheet" media="" href="css/portfolio.css">
@@ -90,9 +93,6 @@
         <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
     </div>
 </footer>
-<script src="js/headroom.js"></script>
-<script src="https://use.fontawesome.com/88f72d132f.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
         (function() {
             var header = document.querySelector("#header");
@@ -113,19 +113,15 @@
         }());
 
         $(document).ready(function(){
-            $('#top_nav>a:nth-child(3)').addClass("active");
+            $('.name').addClass("active");
+            $("#contact-button").click(function(){
+            window.location = 'contact.html';
+            });
 
             $('#nav-icon4').click(function(){
             $(this).toggleClass('open');
             $('#top_nav').toggleClass('open');
             });
-
-            if ($(".wrapper").height()<$(window).height()*0.75){
-            $("footer").addClass("fixed");
-            }
-            else{
-            $("footer").removeClass("fixed");
-            }
         });
 </script>
 </body>

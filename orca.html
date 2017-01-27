@@ -3,8 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
     <title>Filip Sipos – UX Designer</title>
+    <script src="js/headroom.js"></script>
+    <script src="https://use.fontawesome.com/88f72d132f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" media="" href="css/application.css">
     <link rel="stylesheet" media="(max-width: 425px)" href="css/application_max425.css">
     <link rel="stylesheet" media="" href="css/orca.css">
@@ -53,15 +56,15 @@
                 </ul>
                 <img id="iphones" src="images/iphone_sizes.svg" alt="">
                 <div id="col_box">
-                    <div class="col" id="col2">
+                    <div class="col" id="col1">
                     <h3>The Team</h3>
                     <p>I was a part of pitch team that consisted of three junior level UX designers. Although we’ve known each other for a couple of weeks prior to this project we’ve never before worked together as a team.</p>
                     </div>
-                    <div class="col" id="col3">
+                    <div class="col" id="col2">
                     <h3>My Role</h3>
                     <p>I was responsible for leading the team through the research, creating a wireframes and a clickable prototype for usability testing. I was also appointed to be a project lead responsible for conflict resolution. </p>
                     </div>
-                    <div class="col" id="col1">
+                    <div class="col" id="col3">
                     <h3>Our Challenges</h3>
                     <ul>
                         <li>Establishing team hierarchy</li>
@@ -94,7 +97,7 @@
             <div class="row" id="row_7">
                 <h4>User Interviews</h4>
                 <h2>What Linda Told Us</h2>
-                <img class="responsive" id="quote" src="images/quote.svg" alt=""><p>Our <b>primary persona</b> Linda Bee is a result of 15 <b>user interviews</b> that we have conducted in first two days of our project. Linda told us a lot of important informations like quote: <strong><em>"I never know how much money I've left on my Orca card"</em></strong>. But what really surprised us was how unsafe she feels. She says:<strong><em>"I allways carry a pepper spray with me."</em></strong>We have revieled that 9 out of 10 women is affraid of being followed by a stranger; 7 out of 10 carries pepper spray; and 3 out of 10 were previously sexually assaulted. This imposed <b>unexpected challeng</b>. We knew we had only 10 days left before our <b>pitch</b> and this was not something we wanted to leave out!</p>
+                <p>Our <b>primary persona</b> Linda Bee is a result of 15 <b>user interviews</b> that we have conducted in first two days of our project. Linda told us a lot of important informations like quote: <strong><em>"I never know how much money I've left on my Orca card"</em></strong>. But what really surprised us was how unsafe she feels. She says:</p><img class="responsive" id="quote" src="images/quote.svg" alt=""><p>We have revieled that 9 out of 10 women is affraid of being followed by a stranger; 7 out of 10 carries pepper spray; and 3 out of 10 were previously sexually assaulted. This imposed <b>unexpected challeng</b>. We knew we had only 10 days left before our <b>pitch</b> and this was not something we wanted to leave out!</p>
             </div>
             <div class="row-img" id="row_8">
                 <img class="responsive" id="affinity" src="images/post-its-1 copy.jpg" alt="">
@@ -158,9 +161,6 @@
         <p class="copyright">Website design &amp; content &copy; 2017 Filip Sipos.</p>
     </div>
 </footer>
-<script src="js/headroom.js"></script>
-<script src="https://use.fontawesome.com/88f72d132f.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
         (function() {
             var header = document.querySelector("#header");
@@ -181,7 +181,10 @@
         }());
 
         $(document).ready(function(){
-            $('#top_nav>a:nth-child(3)').addClass("active");
+            $('.name').addClass("active");
+            $("#contact-button").click(function(){
+            window.location = 'contact.html';
+            });
 
             $('#nav-icon4').click(function(){
             $(this).toggleClass('open');

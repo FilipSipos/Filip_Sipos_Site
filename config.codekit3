@@ -27,6 +27,12 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/about.css": {
 		"aP": 0,
 		"bl": 0,
@@ -182,6 +188,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/Filip_Sipos_Resume.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/Filip_Sipos_Resume.pdf",
+		"oF": 0
 		},
 	"\/images\/google.png": {
 		"ft": 32768,
@@ -516,16 +528,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/scss\/about_max425.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/scss\/about_max425-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/scss\/about_max425.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -551,16 +553,6 @@
 		"oF": 3,
 		"oS": 3,
 		"uL": 1
-		},
-	"\/scss\/application_max425.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/scss\/application_max425-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/scss\/application_max425.scss": {
 		"aP": 0,
@@ -601,16 +593,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/scss\/portfolio.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/scss\/portfolio-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/scss\/portfolio.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -638,16 +620,16 @@
 		"uL": 1
 		},
 	"\/scss\/welcome.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/welcome.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/css\/welcome.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/welcome_max425.scss": {
